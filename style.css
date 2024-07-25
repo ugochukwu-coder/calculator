@@ -61,6 +61,7 @@ body{
   display: flex;
   justify-content:space-around;
   align-items: center;
+  gap: 0;
 }
 
 .gentle {
@@ -90,7 +91,17 @@ body{
 @media (max-width:600px){
   .calculator {
     margin: 0;
+    padding: .5rem;
   }
+
+  .row {
+    gap: 10px;
+  }
+}
+
+@media (max-width:500px){
+
+ 
 
  
 }
